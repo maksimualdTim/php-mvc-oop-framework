@@ -2,7 +2,7 @@
     return[
         'db'=>[
             'host' => 'localhost',
-            'dbname' => 'db-blog',
+            'dbname' => 'db_blog',
             'user' => 'root',
             'password' => '',  
         ]
