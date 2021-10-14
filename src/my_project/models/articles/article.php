@@ -21,5 +21,15 @@ class Article extends ActiveRecordEntity {
     protected static function getTableName() :string{
         return 'articles';
     }
+
+    public function setText($text){
+        $this->text=$text;
+    } 
+    public function setName($name){
+        $this->name=$name;
+    }
+    public function setAuthor($author){
+        $this->authorId = $author->getId();
+    }
 }
 ?>
